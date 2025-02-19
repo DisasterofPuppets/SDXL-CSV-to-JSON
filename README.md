@@ -12,6 +12,7 @@ https://disasterofpuppets.github.io/SDXL-CSV-to-JSON/index.html
 
 # Notes
 I have only tested this with a .CSV file from Stable Diffusion.
+It's not pretty but it functions :)
 
 # License
 Creative Commons Zero v1.0 Universal
