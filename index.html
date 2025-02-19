@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to JSON Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SDXL CSV to JSON Converter for Fooocus</h1>
+        <form id="upload-form">
+            <input type="file" id="csv-file" accept=".csv">
+            <button type="submit">Upload and Convert</button>
+        </form>
+        <div id="Instructions" class="Instructions">
+            <h2>Instructions</h2>
+            <p>This tool is intended to take a style.csv file used in Stable Diffusion
+            <br> and convert it to .Json format for use in Fooocus (or any other tools that use the format)</p>
+            <br>
+            <p><font color="red"><b>1. Backup your Fooocus\sdxl_styles\sdxl_styles_marc_k3nt3l.json file</b></font></p>
+            <p><b>2.</b> Copy the output file to Fooocus\sdxl_styles\sdxl_styles_marc_k3nt3l.json</p>
+            <p><b>3.</b> Restart or launch Foocus</p>
+        </div>
+         <pre id="json-output" style="display: none;"></pre>
+        <button id="save-button" style="display: none;">Save as .json</button>
+        <div id="notification" class="notification" style="display: none;">
+            <p><b style="color: red;">Don't forget to backup your old sdxl_styles_marc_k3nt3l.json file</b></p>
+            <button id="ok-button">OK</button>
+        </div>
+    </div>
+    <footer>
+        <p>This tool is provided free of charge and is intended for use at your own risk. <a href="http://Disasterofpuppets.com"> Disaster Of Puppets</a> is not responsible for any damage or loss of data that may occur from using this tool.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
