@@ -8,7 +8,8 @@ and convert it to .Json format for use in Fooocus (or any other tools that use t
 3. Restart or launch Foocus
 
 #License
-
+Creative Commons Zero v1.0 Universal
 
 #Disclaimer
-This tool is provided free of charge and is intended for use at your own risk. <a href="http://Disasterofpuppets.com"> Disaster Of Puppets</a> is not responsible for any damage or loss of data that may occur from using this tool.
+This tool is provided free of charge and is intended for use at your own risk. 
+<a href="http://Disasterofpuppets.com"> Disaster Of Puppets</a> is not responsible for any damage or loss of data that may occur from using this tool.
